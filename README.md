@@ -22,5 +22,10 @@ DeepFool is an iterative attack that computes the minimal perturbation needed to
 1. K-Means
 
 ### Ensemble Learning model
+1. Random Forest Classifier
 
-
+## Dependencies
+1. Tensorflow 2.10
+2. adversarial-robustness-toolbox 1.13.0
+3. cleverhans 3.1.0
+4. scikit-learn 1.1.3
