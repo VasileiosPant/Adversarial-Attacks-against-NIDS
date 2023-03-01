@@ -40,8 +40,8 @@ adam = Adam()
 
 names = ['Flow_ID', 'Src_IP', 'Src_Port', 'Dst_IP', 'Dst_Port', 'Protocol', 'Fwd_IAT_Tot', 'Bwd_IAT_Tot', 'Fwd_PSH_Flags', 'Bwd_PSH_Flags', 'Fwd_URG_Flags', 'Bwd_URG_Flags', 'Fwd_Header_Len', 'Bwd_Header_Len', 'Subflow_Fwd_Pkts', 'Subflow_Fwd_Byts', 'Subflow_Bwd_Pkts', 'Subflow_Bwd_Byts', 'Init_Fwd_Win_Byts', 'Init_Bwd_Win_Byts', 'Fwd_Act_Data_Pkts', 'Fwd_Seg_Size_Min', 'Active_Mean', 'Active_Std', 'Active_Max', 'Active_Min', 'Idle_Mean', 'Idle_Std', 'Idle_Max', 'Idle_Min', 'Label', 'Cat', 'Sub_Cat']
 
-train_df_old = pd.read_csv('/home/bill/diplwmatiki/datasets/iot_dataset_very_small.csv', names=names , header=None)
-test_df_old = pd.read_csv('/home/bill/diplwmatiki/datasets/iot_dataset_very_small_test.csv', names=names , header=None)
+train_df_old = pd.read_csv('iot_dataset.csv', names=names , header=None)
+test_df_old = pd.read_csv('iot_dataset_very_test.csv', names=names , header=None)
 
 print('before')
 print(train_df_old.isnull().sum().sum())
