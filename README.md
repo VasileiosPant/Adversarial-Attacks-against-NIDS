@@ -12,17 +12,14 @@ JSMA is a white-box attack that modifies the input image by iteratively adding o
 DeepFool is an iterative attack that computes the minimal perturbation needed to change the output of a neural network.
 [DeepFool_attack.py](https://github.com/VasileiosPant/Adversarial-Attacks-against-NIDS/blob/main/Adversarial%20Attacks/DeepFool_attack.py)
 
-## Machine Learning models implemented:
-### Supervised Learning models:
+#### Supervised Learning models implemented:
 1. Decision Tree
 2. Support Vector Machine (SVM)
 3. K-Nearest Neighbors
 
-### Unsupervised Learning models:
+#### Unsupervised Learning models implemented:
 1. K-Means
 
-### Ensemble Learning model
-1. Random Forest Classifier
 
 ## Dependencies
 1. Tensorflow 2.10
